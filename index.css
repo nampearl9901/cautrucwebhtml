@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+    
+      background-color: #fff;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style-type: none;
+}
+/* header */
+header{
+    background-color: red;
+    border: green solid 3px;
+   
+}
+.header{
+    background-color: black;
+    display: flex;
+    color: wheat;
+    border: green solid 3px;
+    padding: 10px;
+  
+}
+.header .logo{
+    width: 20%;
+  padding: 40px;
+    border: green solid 3px;
+   
+}
+.header .banner{
+    width: 80%;
+    border: green solid 3px;
+    padding: 40px;
+  
+}
+.menu{
+    background-color: blue;
+  
+    border: green solid 3px;
+    
+    
+}
+.menu ul{
+    display: flex;
+    
+}
+.menu ul li{
+    margin: 10px;
+    
+}
+
+/* main */
+main{
+    border: green solid 3px;
+    display: flex;
+}
+.content__left{
+    border: green solid 3px;
+    width: 20%;
+    padding: 10px;
+}
+.contentl__top
+{
+    border: green solid 3px;
+    padding: 80px;
+}
+.contentl__bottom{
+    border: green solid 3px;
+    padding: 76.2px;
+
+}
+.content__center{
+    width:60% ;
+    border: green solid 3px;
+    align-content: center;
+}
+.content__right{
+    width:20% ;
+    border: green solid 3px;
+ 
+
+}
+
+
+/* footer */
+footer{
+    border: green solid 3px;
+    display: flex;
+    align-items: center;
+   
+}
+footer .year_footer{
+    width: 30%;
+    align-content: center;
+    margin-left: 60px;
+}
+footer .contact__footer{
+    width: 70%;
+  
+}
+
+footer .contact__footer ul{
+    display: flex;
+    float: right;
+    margin-right: 50px;
+
+}
+
+footer .contact__footer ul li{
+    margin-right: 10px;
+  
+
+}
+
